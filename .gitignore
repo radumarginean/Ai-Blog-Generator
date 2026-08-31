@@ -1,0 +1,20 @@
+# Environment / secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Runtime state & output
+state/
+output/
+*.log
+
+# OS
+.DS_Store
